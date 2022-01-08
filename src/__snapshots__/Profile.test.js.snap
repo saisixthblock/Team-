@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checking props1 1`] = `
+<div>
+  <h1>
+    count:
+    5
+  </h1>
+  <p>
+    sucessfully counted
+    sixth
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    click me
+  </button>
+  <Propc
+    counts={5}
+  />
+</div>
+`;
