@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create a SnapShot for the login component Render the component correctly 1`] = `
+<Row
+  tag="div"
+  widths={
+    Array [
+      "xs",
+      "sm",
+      "md",
+      "lg",
+      "xl",
+      "xxl",
+    ]
+  }
+>
+  <Col
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "xxl",
+      ]
+    }
+  >
+    <Card
+      style={
+        Object {
+          "marginLeft": 500,
+          "marginRight": 400,
+          "marginTop": 100,
+        }
+      }
+      tag="div"
+    >
+      <CardHeader
+        tag="div"
+      >
+        <div
+          className="header"
+        >
+          <b>
+             LOGIN
+          </b>
+        </div>
+        <br />
+      </CardHeader>
+      <CardBody
+        tag="div"
+      >
+        <Form
+          onSubmit={[Function]}
+          tag="form"
+        >
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+                "xxl",
+              ]
+            }
+          >
+            <Col
+              md={6}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                  "xxl",
+                ]
+              }
+            >
+              <FormGroup
+                tag="div"
+              >
+                <Label
+                  htmlFor="email"
+                  tag="label"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                      "xxl",
+                    ]
+                  }
+                >
+                  Email:
+                </Label>
+                <Input
+                  name="email"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  placeholder="Email Id"
+                  type="text"
+                  value="test@gmail.com"
+                />
+              </FormGroup>
+            </Col>
+          </Row>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+                "xxl",
+              ]
+            }
+          >
+            <Col
+              md={6}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                  "xxl",
+                ]
+              }
+            >
+              <FormGroup
+                tag="div"
+              >
+                <Label
+                  htmlFor="password"
+                  tag="label"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                      "xxl",
+                    ]
+                  }
+                >
+                  Password:
+                </Label>
+                <Input
+                  name="password"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  placeholder="Password"
+                  type="password"
+                  value=""
+                />
+              </FormGroup>
+            </Col>
+          </Row>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+                "xxl",
+              ]
+            }
+          >
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                  "xxl",
+                ]
+              }
+            >
+              <Button
+                color="success"
+                id="test-button"
+                outline={true}
+                tag="button"
+                type="submit"
+              >
+                Login
+              </Button>
+                 If Not Registered? Please 
+              <Link
+                component={<Register />}
+                to="/register"
+              >
+                Register
+              </Link>
+            </Col>
+          </Row>
+        </Form>
+      </CardBody>
+    </Card>
+  </Col>
+</Row>
+`;
