@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the Basic Details component Create the snapShot of basicDetails component 1`] = `
+<div>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "xxl",
+      ]
+    }
+  >
+    <Col
+      md={6}
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+          "xxl",
+        ]
+      }
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Label
+          htmlFor="fullName"
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "xxl",
+            ]
+          }
+        >
+          Fullname:
+        </Label>
+        <Input
+          name="fullName"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Enter the Fullname"
+          type="text"
+          value="abcd"
+        />
+      </FormGroup>
+    </Col>
+    <Col
+      md={6}
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+          "xxl",
+        ]
+      }
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Label
+          htmlFor="phoneNumber"
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "xxl",
+            ]
+          }
+        >
+          PhoneNumber:
+        </Label>
+        <Input
+          name="phoneNumber"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Enter the Phone Number"
+          type="text"
+          value="998877"
+        />
+      </FormGroup>
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "xxl",
+      ]
+    }
+  >
+    <Col
+      md={6}
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+          "xxl",
+        ]
+      }
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Label
+          htmlFor="email"
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "xxl",
+            ]
+          }
+        >
+          Email Id:
+        </Label>
+        <Input
+          name="email"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Enter the email ID"
+          type="email"
+          value="abcd@gmail.com"
+        />
+      </FormGroup>
+    </Col>
+    <Col
+      md={6}
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+          "xxl",
+        ]
+      }
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Label
+          htmlFor="password"
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "xxl",
+            ]
+          }
+        >
+          Password:
+        </Label>
+        <Input
+          name="password"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Enter the password"
+          type="password"
+          value="abcd"
+        />
+      </FormGroup>
+    </Col>
+  </Row>
+</div>
+`;

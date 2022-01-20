@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the Address component Create the snapShot for the Address component 1`] = `
+<div>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "xxl",
+      ]
+    }
+  >
+    <Col
+      md={6}
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+          "xxl",
+        ]
+      }
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Label
+          htmlFor="address"
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "xxl",
+            ]
+          }
+        >
+          Address:
+        </Label>
+        <Input
+          name="address"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Enter the address"
+          type="textarea"
+          value=""
+        />
+      </FormGroup>
+    </Col>
+    <Col
+      md={6}
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+          "xxl",
+        ]
+      }
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Label
+          htmlFor="city"
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "xxl",
+            ]
+          }
+        >
+          City:
+        </Label>
+        <Input
+          name="city"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Enter the city"
+          type="text"
+          value="hyd"
+        />
+      </FormGroup>
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "xxl",
+      ]
+    }
+  >
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+          "xxl",
+        ]
+      }
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Label
+          htmlFor="pincode"
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "xxl",
+            ]
+          }
+        >
+          pincode:
+        </Label>
+        <Input
+          name="pincode"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Enter the pincode"
+          type="text"
+          value="502032"
+        />
+      </FormGroup>
+    </Col>
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+          "xxl",
+        ]
+      }
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Label
+          htmlFor="state"
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "xxl",
+            ]
+          }
+        >
+          State:
+        </Label>
+        <Input
+          name="state"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Enter the state"
+          type="text"
+          value=""
+        />
+      </FormGroup>
+    </Col>
+  </Row>
+</div>
+`;
