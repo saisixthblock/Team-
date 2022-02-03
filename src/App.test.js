@@ -1,13 +1,15 @@
-import React from "react";
-import App from "./App";
-import { render, screen } from "@testing-library/react";
-import "@testing-library/jest-dom";
-import { shallow } from "enzyme/build";
-import { configure } from "enzyme";
-import Adapter from "enzyme-adapter-react-16";
+import { render, screen } from '@testing-library/react';
+import App from './App';
+import React from 'react';
+import {shallow} from 'enzyme';
+import Enzyme from 'enzyme';
+import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 
-configure({ adapter: new Adapter() });
-test("app navigating", () => {
-  render(<App />);
-  // expect(screen.getByText(/home page/i)).toBeInTheDocument();
-});
+Enzyme.configure({ adapter: new Adapter() });
+
+describe('Render the app component',()=>{
+  it('Rendering the div component',()=>{
+    let wrapper=shallow(<App/>)
+    expect(wrapper.find('div')).toHaveLength(1);
+  });
+})

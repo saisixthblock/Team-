@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create a snapShot for the register component Create the snapshot for the register component 1`] = `
+<Row
+  tag="div"
+  widths={
+    Array [
+      "xs",
+      "sm",
+      "md",
+      "lg",
+      "xl",
+      "xxl",
+    ]
+  }
+>
+  <Col
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "xxl",
+      ]
+    }
+  >
+    <Card
+      style={
+        Object {
+          "marginLeft": 500,
+          "marginRight": 300,
+          "marginTop": 100,
+        }
+      }
+      tag="div"
+    >
+      <CardHeader
+        tag="div"
+      >
+        <div
+          className="header"
+          style={
+            Object {
+              "marginLeft": 100,
+            }
+          }
+        >
+          <b>
+            REGISTRATION
+          </b>
+        </div>
+      </CardHeader>
+      <CardBody
+        tag="div"
+      >
+        <SplitRegister
+          handleBlur={[Function]}
+          values={
+            Object {
+              "address": "",
+              "addressError": "",
+              "checkbox": Object {
+                "evening": false,
+                "morning": false,
+              },
+              "checkboxError": "",
+              "city": "",
+              "cityError": "",
+              "email": "",
+              "emailError": "",
+              "fullName": "",
+              "fullNameError": "",
+              "gender": Object {
+                "female": false,
+                "male": false,
+              },
+              "genderError": "",
+              "location": "",
+              "locationError": "",
+              "password": "",
+              "passwordError": "",
+              "phoneNumber": "",
+              "phoneNumberError": "",
+              "pincode": "",
+              "pincodeError": "",
+              "state": "",
+              "stateError": "",
+            }
+          }
+        />
+      </CardBody>
+    </Card>
+  </Col>
+</Row>
+`;

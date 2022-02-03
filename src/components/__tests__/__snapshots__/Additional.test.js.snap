@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the Additional component Create the snapShot of Additional component 1`] = `
+<div>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "xxl",
+      ]
+    }
+  >
+    <Col
+      md={4}
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+          "xxl",
+        ]
+      }
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Label
+          htmlFor="location"
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "xxl",
+            ]
+          }
+        >
+          Location:
+        </Label>
+        <Input
+          name="location"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Select"
+          type="select"
+          value="Hyderabad"
+        >
+          <option
+            value=""
+          >
+            Select
+          </option>
+          <option
+            value="Hyderabad"
+          >
+            Hyderabad
+          </option>
+          <option
+            value="Chennai"
+          >
+            Chennai
+          </option>
+          <option
+            value="Banglore"
+          >
+            Banglore
+          </option>
+        </Input>
+      </FormGroup>
+    </Col>
+    <Col
+      md={8}
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+          "xxl",
+        ]
+      }
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Label
+          htmlFor="gender"
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "xxl",
+            ]
+          }
+        >
+          Gender:
+        </Label>
+        <br />
+        <Input
+          id="male"
+          name="gender"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="radio"
+          value=""
+        />
+         
+        <Label
+          htmlFor="male"
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "xxl",
+            ]
+          }
+        >
+          male
+        </Label>
+        <Input
+          id="female"
+          name="gender"
+          onBlur={[Function]}
+          onChange={[Function]}
+          style={
+            Object {
+              "marginLeft": 5,
+            }
+          }
+          type="radio"
+          value=""
+        />
+         
+        <Label
+          htmlFor="female"
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "xxl",
+            ]
+          }
+        >
+          female
+        </Label>
+      </FormGroup>
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "xxl",
+      ]
+    }
+  >
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+          "xxl",
+        ]
+      }
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Label
+          htmlFor="checkbox"
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "xxl",
+            ]
+          }
+        >
+           Time Slot :
+        </Label>
+        <br />
+        <Input
+          id="morning"
+          name="checkbox"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "xxl",
+            ]
+          }
+        >
+          Morning (9:00-12:00)
+        </Label>
+        <Input
+          id="evening"
+          name="checkbox"
+          onBlur={[Function]}
+          onChange={[Function]}
+          style={
+            Object {
+              "marginLeft": 25,
+            }
+          }
+          type="checkbox"
+        />
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "xxl",
+            ]
+          }
+        >
+          Evening (6:00-9:00)
+        </Label>
+      </FormGroup>
+    </Col>
+  </Row>
+</div>
+`;
